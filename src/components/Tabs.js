@@ -6,6 +6,8 @@ import UpcomingWeather from '../screens/UpcomingWeather'
 import City from '../screens/City'
 import { Feather } from '@expo/vector-icons'
 
+// Tabs
+
 const Tab = createBottomTabNavigator()
 
 const Tabs = ({ weather }) => {
