@@ -5,6 +5,8 @@ import Tabs from './src/components/Tabs'
 import { useGetWeather } from './src/hooks/useGetWeather'
 import ErrorItem from './src/components/ErrorItem'
 
+// App Component
+
 const App = () => {
   const [loading, error, weather] = useGetWeather()
 

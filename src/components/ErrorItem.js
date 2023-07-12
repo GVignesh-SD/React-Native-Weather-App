@@ -2,6 +2,8 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 import { Feather } from '@expo/vector-icons'
 
+// Error Component
+
 const ErrorItem = () => {
   return (
     <View style={styles.container}>
